@@ -2,7 +2,7 @@
 
 This document serves as the authoritative guide for AI coding agents (Claude Code, Cursor, etc.) to maintain architectural integrity and coding standards within this Next.js 15 + SQLite SaaS environment.
 
-## 🛠 Stack & Versions
+## Stack & Versions
 - **Framework:** Next.js 15 (App Router) - *Stricly use Server Components by default.*
 - **Language:** TypeScript (Strict Mode)
 - **Database:** SQLite via `better-sqlite3` (Synchronous execution preferred for local-first simplicity).
