@@ -26,7 +26,7 @@ This document serves as the authoritative guide for AI coding agents (Claude Cod
 ```
 
 
-## 🗄 SQL & Migration Conventions
+## SQL & Migration Conventions
 
 - **Schem Ownership**: All schema changes must be defined in `lib/db/schema.ts` and mirrored in a new migration file within `lib/db/migrations/`.
 - **Migration Workflow**:
